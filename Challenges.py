@@ -47,4 +47,10 @@ symbol = "#"
 space = ' '
 for i in range(1,6+1):
     print(space * (6-i)+symbol*i)
+    
+#day 2 https://www.hackerrank.com/challenges/30-data-types/problem?isFullScreen=true
+    
+    
+    
+    
         
