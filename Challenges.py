@@ -52,6 +52,6 @@ for i in range(1,6+1):
 #day 3 https://www.hackerrank.com/challenges/list-comprehensions/problem
 #day4  https://www.hackerrank.com/challenges/utopian-tree 
 #day 5 https://www.hackerrank.com/challenges/mini-max-sum/
-    
+#day 6 https://www.hackerrank.com/challenges/birthday-cake-candles/,
     
         
