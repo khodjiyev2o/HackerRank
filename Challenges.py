@@ -54,5 +54,5 @@ for i in range(1,6+1):
 #day 4 https://www.hackerrank.com/challenges/mini-max-sum/
 #day 5 https://www.hackerrank.com/challenges/birthday-cake-candles/,
 #day 6 https://www.hackerrank.com/challenges/30-review-loop ,https://www.hackerrank.com/challenges/find-digits/problem
-    
+#day 7 https://www.hackerrank.com/challenges/30-arrays 
         
