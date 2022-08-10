@@ -69,4 +69,13 @@ for i in range(1,6+1):
 #             print("Not found")
 #     except:
 #         break
-    
+
+
+
+#day 9 https://www.hackerrank.com/challenges/30-recursion/problem
+# def factorial(n):
+#     # Write your code here
+#     if n == 1:
+#         return 1
+#     elif n>1:
+#         return n*factorial(n-1)  
