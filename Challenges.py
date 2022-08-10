@@ -56,3 +56,17 @@ for i in range(1,6+1):
 #day 6 https://www.hackerrank.com/challenges/30-review-loop ,https://www.hackerrank.com/challenges/find-digits/problem
 #day 7 https://www.hackerrank.com/challenges/30-arrays 
 #day 8 https://www.hackerrank.com/challenges/30-dictionaries-and-maps/forum      
+#day 9 https://www.hackerrank.com/challenges/30-dictionaries-and-maps/problem
+# n = int(input())
+# users = [input().split() for _ in range(n)]
+# mydict = {user: phone for user,phone in users}
+# while True:
+#     try:
+#         name = input()
+#         if name in mydict:
+#             print('%s=%s' % (name, mydict[name]))
+#         else:
+#             print("Not found")
+#     except:
+#         break
+    
