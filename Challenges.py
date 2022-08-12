@@ -79,3 +79,20 @@ for i in range(1,6+1):
 #         return 1
 #     elif n>1:
 #         return n*factorial(n-1)  
+
+
+
+#day 10 https://www.hackerrank.com/challenges/diagonal-difference
+# def diagonalDifference(arr):
+#     # Write your code here
+#     immut = len(arr)
+#     n   = len(arr)
+#     prim_d = 0
+#     sec_d = 0
+#     count = 1
+#     for i in arr:
+#         prim_d += i[immut-n]
+#         sec_d += i[immut-count]
+#         count+=1 
+#         n-=1
+#     return abs(prim_d-sec_d)
