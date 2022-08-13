@@ -134,7 +134,7 @@ for i in range(1,6+1):
 #                 return "T"
 
 
-#day 12 Palindrome number :
+#day 12 Palindrome number :-------->>>>> 1 version 
 # def isPalindrome(numbasString):
 #    reverseStr = ''
 #    for i  in  range(1,len(numbasString)+1):
@@ -144,5 +144,14 @@ for i in range(1,6+1):
 #    else:
 #     return False
 
+# -------->>>>>>>> 2 version 
+
+# def isPalindrome(numbasString):
+#    reverseStr = ''
+#    reverseStr = numbasString[::-1]
+#    if reverseStr == numbasString :
+#     return True
+#    else:
+#     return False
 
 
