@@ -33,6 +33,12 @@
 #         coef_n= n_len/n
 #         coef_z= z_len/n
 #     print(coef_p)
+
+
+
+
+
+
 #     print(coef_n)
 #     print(coef_z)   
 # if __name__ == '__main__':
@@ -96,3 +102,37 @@ for i in range(1,6+1):
 #         count+=1 
 #         n-=1
 #     return abs(prim_d-sec_d)
+
+
+
+
+#day 12 https://www.hackerrank.com/challenges/30-inheritance
+
+# class Student(Person):
+#      def __init__(self, firstName, lastName, idNumber,scores):
+#         super().__init__(firstName, lastName, idNumber)
+#         self.scores = scores
+          
+#      def calculate(self):
+#             overall = 0
+#             count = 0 
+#             for score in self.scores:
+#                 overall += score
+#                 count += 1
+#             result = overall/count
+#             if result>=90 and result<=100:
+#                 return "O"
+#             if result>=80 and result<90:
+#                 return "E"
+#             if result>=70 and result<80:
+#                 return "A"
+#             if result>=55 and result<70:
+#                 return "P"
+#             if result>=40 and result<55:
+#                 return "D"
+#             if result<40:
+#                 return "T"
+
+
+
+
