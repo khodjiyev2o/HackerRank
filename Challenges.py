@@ -155,3 +155,6 @@ for i in range(1,6+1):
 #     return False
 
 
+#day 13 https://www.hackerrank.com/challenges/30-abstract-classes?isFullScreen=true
+
+
