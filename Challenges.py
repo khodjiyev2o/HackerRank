@@ -1,3 +1,5 @@
+## When solving problems , think outside the box and be creative.Look at the problem from another angle !
+
 ##https://www.hackerrank.com/challenges/plus-minus/problem
 #!/bin/python3
 
@@ -156,5 +158,16 @@ for i in range(1,6+1):
 
 
 #day 13 https://www.hackerrank.com/challenges/30-abstract-classes?isFullScreen=true
+#day 14 https://www.hackerrank.com/challenges/30-scope/problem?
+# class Difference:
+#     def __init__(self, a):
+#         self.__elements = a
+#         self.maximumDifference = 0
+# 	# Add your code here
+    
+#     def computeDifference(self):
+#        result = max(self.__elements) - min(self.__elements)
+#        self.maximumDifference = result
 
+##
 
