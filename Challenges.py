@@ -170,4 +170,13 @@ for i in range(1,6+1):
 #        self.maximumDifference = result
 
 ##
-
+## day 15 https://www.hackerrank.com/challenges/validating-the-phone-number
+# import re
+# n = int(input())
+# for i in range(n):
+#     testString = input()
+#     match = re.search('^\s*[7-9]',testString)
+#     if match and len(testString) == 10 and testString.isdigit():
+#         print("YES")
+#     else:
+#         print("NO")
