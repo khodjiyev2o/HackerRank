@@ -182,10 +182,20 @@ for i in range(1,6+1):
 #         print("NO")
 
 
-# https://www.hackerrank.com/challenges/30-exceptions-string-to-integer
+# day 16 https://www.hackerrank.com/challenges/30-exceptions-string-to-integer
 # S = input()
 # try:
 #     print(int(S))
 # except ValueError:
 #     print("Bad String")
     
+#day 17 https://www.hackerrank.com/challenges/30-more-exceptions
+
+# class Calculator:
+    
+#     def power(self,n,p):
+#         if n < 0 or p < 0:
+#              raise Exception("n and p should be non-negative")
+#         else:
+#             result = n**p
+#             return result
