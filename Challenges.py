@@ -180,3 +180,12 @@ for i in range(1,6+1):
 #         print("YES")
 #     else:
 #         print("NO")
+
+
+# https://www.hackerrank.com/challenges/30-exceptions-string-to-integer
+# S = input()
+# try:
+#     print(int(S))
+# except ValueError:
+#     print("Bad String")
+    
