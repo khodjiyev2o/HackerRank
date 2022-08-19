@@ -216,3 +216,14 @@ for i in range(1,6+1):
 #         else:
 #           results.append(grade)      
 #     return results 
+
+
+
+# delete duplicates from dictionary
+
+# mydict = {'a':20,'b':30,'c':10,'d':20}
+# newdict = {}
+# for k,v in mydict.items():
+#     if v not  in newdict.values():
+#         newdict[k] = v
+# print(newdict)  
