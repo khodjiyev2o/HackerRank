@@ -227,3 +227,19 @@ for i in range(1,6+1):
 #     if v not  in newdict.values():
 #         newdict[k] = v
 # print(newdict)  
+
+
+# battery life problem 
+
+# def batterylife(arr):
+#     battery = 50 
+#     for i in arr:
+#         battery+=i
+#         if battery > 100:
+#             battery = 100
+        
+#     return battery
+
+# assert batterylife([25,-30,70,10]) == 100
+# assert batterylife([10,-20,61,-15]) == 85
+
