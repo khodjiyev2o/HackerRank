@@ -199,3 +199,20 @@ for i in range(1,6+1):
 #         else:
 #             result = n**p
 #             return result
+
+
+# day 18 https://www.hackerrank.com/challenges/grading
+
+# def gradingStudents(grades):
+#     # Write your code here
+#     results = []
+#     for grade in grades:
+#         if grade >= 38:
+#             if grade % 5 > 2 :
+#                 grade += 5 - (grade%5)
+#                 results.append(grade)
+#             else:
+#                  results.append(grade)    
+#         else:
+#           results.append(grade)      
+#     return results 
