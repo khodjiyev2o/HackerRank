@@ -243,3 +243,9 @@ for i in range(1,6+1):
 # assert batterylife([25,-30,70,10]) == 100
 # assert batterylife([10,-20,61,-15]) == 85
 
+# day 19 https://www.hackerrank.com/challenges/30-interfaces
+# def divisorSum(self, n):
+#         sumof = 0
+#         for i in range(1,n+1):
+#             if n % i == 0:
+#                 sumof += i 
