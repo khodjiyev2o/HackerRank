@@ -19,3 +19,17 @@
                 
                 
 #         return max_profit
+
+# https://leetcode.com/problems/valid-palindrome 
+# class Solution:
+#     def isPalindrome(self, s: str) -> bool:
+#         newstr = ''
+#         for i in s.lower():
+#             if i.isalnum():
+#                 newstr += i
+                
+#         newstr1 = newstr[::-1] 
+#         if newstr == newstr1 :
+#             return True
+#         else :
+#             return False
