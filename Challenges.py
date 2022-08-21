@@ -249,3 +249,22 @@ for i in range(1,6+1):
 #         for i in range(1,n+1):
 #             if n % i == 0:
 #                 sumof += i 
+
+#day 20 https://www.hackerrank.com/challenges/30-sorting
+# def bubble_sort(a:list,n:int):
+#     numberOfSwaps = 0
+#     i=0
+#     temp = None
+#     for i in range(0,len(a)-1):
+#         if a[i] > a[i+1]:
+#            a[i],a[i+1] = a[i+1],a[i]
+#            numberOfSwaps += 1
+#         if a[0] > a[1]:
+#             a[0],a[1] = a[1],a[0] 
+#             numberOfSwaps += 1
+
+#     print(f"Array is sorted in {numberOfSwaps} swaps.")
+#     print(f"First Element: {a[0]}")
+#     print(f"Last Element: {a[-1]}")
+
+
