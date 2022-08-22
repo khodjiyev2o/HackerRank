@@ -273,3 +273,17 @@ for i in range(1,6+1):
 # bubble_sort(a,10)
 
 
+# day 21 https://www.hackerrank.com/challenges/sock-merchant
+
+# def sockMerchant(n, ar):
+#     # Write your code here
+#     count = 0 
+#     temp = []
+#     for i in range(n):
+#         if ar[i] in temp:
+#             temp.remove(ar[i])
+#             count += 1 
+#         else:
+#             temp.append(ar[i])
+#     return count 
+
