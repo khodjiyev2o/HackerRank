@@ -287,3 +287,19 @@ for i in range(1,6+1):
 #             temp.append(ar[i])
 #     return count 
 
+# day 28 https://www.hackerrank.com/challenges/30-regex-patterns
+
+
+# if __name__ == '__main__':
+#     N = int(input().strip())
+#     arr = []    
+#     for N_itr in range(N):
+#         first_multiple_input = input().rstrip().split()
+
+#         firstName = first_multiple_input[0]
+
+#         emailID = first_multiple_input[1]
+#         if "@gmail.com" in emailID:
+#             arr.append(firstName)
+#     for i in sorted(arr):       
+#         print(i)
