@@ -287,8 +287,30 @@ for i in range(1,6+1):
 #             temp.append(ar[i])
 #     return count 
 
-# day 28 https://www.hackerrank.com/challenges/30-regex-patterns
+# day 26 https://www.hackerrank.com/challenges/30-nested-logic/problem?isFullScreen=true
+# return_date = input()
+# due_date = input()
 
+# return_date = [int(i)for i in return_date.split()]
+# due_date = [int(i) for i in due_date.split()]
+# fine = 0
+
+# if return_date[2] > due_date[2]:
+#     fine = 10000
+# elif return_date[1] > due_date[1]:
+#     month = return_date[1] - due_date[1]
+#     fine = 500 * month 
+    
+# elif return_date[0] > due_date[0]:
+#     day = return_date[0] - due_date[0]
+#     fine = 15 * day 
+# else : 
+#     fine = 0
+    
+# print(fine)
+
+
+# day 28 https://www.hackerrank.com/challenges/30-regex-patterns
 
 # if __name__ == '__main__':
 #     N = int(input().strip())
@@ -303,3 +325,5 @@ for i in range(1,6+1):
 #             arr.append(firstName)
 #     for i in sorted(arr):       
 #         print(i)
+
+
