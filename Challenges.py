@@ -327,3 +327,13 @@ for i in range(1,6+1):
 #         print(i)
 
 
+# https://www.hackerrank.com/challenges/the-hurdle-race
+
+# def hurdleRace(k, height):
+#     # Write your code here
+#     max_height = max(height)
+#     if k >= max_height :
+#         result = 0
+#     elif k < max_height :
+#         result = max_height - k 
+#     return result 
