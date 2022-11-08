@@ -30,7 +30,7 @@ class Safari():
 
 
     def conquer(self,picked_animal:str,safari:list[list],cell:int=9)->list[list]:
-        
+
         if picked_animal == "D": ##  Terminate recursion, as deer cannot hunt anyone
             print("Deer cannot hunt noone!")
             return safari
@@ -59,11 +59,12 @@ class Safari():
 cls = Safari()
 picked_cell = cls.get_random_cell()
 safari = cls.create_safari()
+print('\n'.join(['\t'.join([str(cell) for cell in row]) for row in safari]))
 picked_animal=cls.get_animal(picked_cell=picked_cell,safari=safari)
 
 conquered_safari = cls.conquer(picked_animal=picked_animal,safari=safari)
 
-print('\n'.join(['\t'.join([str(cell) for cell in row]) for row in safari]))
+
 
 
 
